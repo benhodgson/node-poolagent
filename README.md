@@ -28,6 +28,7 @@ for (var i = 0; i < 100; i++) {
 ```
 
 ## TODO
+  * add support for HTTPS (implement creation of TLS sockets)
   * distribute as an [npm](https://npmjs.org) package
   * add automated tests
   * test in recent versions of Node.js (last tested in v0.8.14)
