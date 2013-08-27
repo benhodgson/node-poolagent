@@ -28,6 +28,7 @@ for (var i = 0; i < 100; i++) {
 ```
 
 ## TODO
+  * distribute as an [npm](https://npmjs.org) package
   * add automated tests
   * test in recent versions of Node.js (last tested in v0.8.14)
   * allow the timeout to be set to zero to close socket immediately after
