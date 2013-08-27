@@ -12,10 +12,10 @@ function PoolAgent (options) {
   this.options = options || {};
   
   // maximum time that a socket can spend "available" before being closed
-  this.availableTimeout = this.options.availableTimeout || 1000;
+  this.availableTimeout = this.options.availableTimeout || 2500;
   
   // maximum number of open sockets per host-port pair
-  this.maxSockets = this.options.maxSockets || 2;
+  this.maxSockets = this.options.maxSockets || 5;
   
   this.sockets = {}; 
   this.requests = {}; // queue of requests waiting to be serviced for a host-port pair
