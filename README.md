@@ -2,7 +2,7 @@
 
 node-poolagent is a socket-pooling
 [HTTP agent](http://nodejs.org/api/http.html#http_class_http_agent) for
-[Node.js](http://nodejs.org/) that keeps sockets open for reuse for a specified timeout.
+[Node.js](http://nodejs.org/) that keeps sockets open for reuse until a specified timeout.
 
 ## Example usage
 
